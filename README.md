@@ -19,42 +19,44 @@
 - Video Demonstration — `demo_video.mp4`
 
 ## Quickstart (local)
-1. Create & activate venv:
-   ```bash
+
+### Create & activate venv:
+   ```
    python -m venv .venv
    source .venv/bin/activate   # Linux / macOS
    .venv\Scripts\activate      # Windows
-Install:
 
-bash
-Copy code
+   ```
+   
+### Install:
+```
 pip install -r requirements.txt
 Set environment variables (optional; required for Gemini LLM):
-
-bash
-Copy code
+```
+```
 export GEMINI_API_KEY="your_key_here"
 export GEMINI_MODEL="gemini-2.5-flash"   # recommended
-On Windows (PowerShell):
+```
 
-powershell
-Copy code
+### On Windows (PowerShell):
+```
 setx GEMINI_API_KEY "your_key_here"
 setx GEMINI_MODEL "gemini-2.5-flash"
-Run demo:
+```
 
-bash
-Copy code
+### Run demo:
+```
 streamlit run tools/streamlit_rag_app.py
 Open browser at http://localhost:8501.
+```
+### Notes & tips
 
-Notes & tips
-Gemini model: I recommend gemini-2.5-flash (set via GEMINI_MODEL env var). If Gemini SDK or key is missing the app still runs deterministically (retrieval + deterministic table outputs).
+- Gemini model: I recommend gemini-2.5-flash (set via GEMINI_MODEL env var). If Gemini SDK or key is missing the app still runs deterministically (retrieval + deterministic table outputs).
 
-Embedding: sentence-transformers/all-mpnet-base-v2 is preferred; a smaller fallback (all-MiniLM-L6-v2) is used when needed. The code forces CPU by default to avoid meta-tensor errors on machines without GPU setup.
+- Embedding: sentence-transformers/all-mpnet-base-v2 is preferred; a smaller fallback (all-MiniLM-L6-v2) is used when needed. The code forces CPU by default to avoid meta-tensor errors on machines without GPU setup.
 
-FAISS & chunks: keep data/processed/faiss_index.idx and data/processed/qatar_chunks.json alongside the code or provide instructions to re-run ingestion if you cannot include binary indexes.
+- FAISS & chunks: keep data/processed/faiss_index.idx and data/processed/qatar_chunks.json alongside the code or provide instructions to re-run ingestion if you cannot include binary indexes.
 
-CSV Table: data/processed/qatar_table1_corrected.csv used for deterministic table outputs and downloads.
+- CSV Table: data/processed/qatar_table1_corrected.csv used for deterministic table outputs and downloads.
 
 Privacy / keys: do not commit GEMINI_API_KEY to GitHub. Use GitHub Secrets for CI or .env locally (and add to .gitignore).
