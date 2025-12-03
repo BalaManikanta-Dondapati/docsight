@@ -1,0 +1,54 @@
+Value Contrib 1/ Percentile in peer group 2/,,,,,,,,,,,
+"Final Fanchart (Percent of GDP) Debt fanchart module
+150 5-25 pct Fanchart width 88.7 1.3
+25-50 pct (percent of GDP)",,,,,,,,,,,
+"150 5-25 pct
+25-50 pct",,,,,,,,,,,
+100,,"50-75 pct
+75-95 pct
+Actual",,,,,"Probability of debt non- 4.6 0.0
+stabilization (percent)",,,,
+50,,,,,,,"Terminal debt-to-GDP x 12.1 0.3
+institutions index",,,,
+"0
+2019 2021 2023 2025 2027 2029",,,,,,,"0 25 50 75 100
+Debt fanchart index (DFI) 1.6
+Risk signal: 3/ Moderate",,,,
+"Gross Financing Needs (Percent of GDP) Gross financing needs (GFN) module
+30 Financing provided by banks Average baseline GFN -1.7 -0.6
+(percent of GDP)
+Actual",,,,,,,,,,,
+"30
+Financing provided by banks
+Actual",,,,,,,,,,,
+20,,Baseline,,,,"Initial Banks' claims on the 15.5 5.0
+gen. govt (pct bank assets)",,,,,
+10,,Stress scenario,,,,"Chg. In banks' claims in 1.5 0.5
+stress (pct banks' assets)",,,,,
+"0
+-10
+2019 2021 2023 2025 2027 2029",,,,,,"0 25 50 75 100
+GFN financeability index (GFI) 5.0
+Risk signal: 4/ Low",,,,,
+Triggered stress tests (stress tests not activated in gray),,,,,,,,,,,
+,Banking crisis,,,Commodity prices Exchange rate Continge,,,,nt liab.,Natural disaster,,
+"Medium-Term Index (Index Number) Medium-term risk analysis
+0.6 Value Value
+(normalized) Weight Contribution
+0.4 Debt fanchart index 1.6 0.4 0.5 0.2
+GFN finaceability index 5.0 0.1 0.5 0.0
+0.2
+Medium-term index 0.2
+0.0 Risk signal: 5/ Low
+2021 2022 2023 2024 Final assessment: Moderate
+Medium-term index Low risk
+Prob. of missed crisis, 2024-2029, if stress not predicted: 9.1 pct.
+High risk Prob. of false alarms, 2024-2029, if stress predicted: 48.9 pct.",,,,,,,,,,,
+"Commentary: Medium-term risks are assessed as low, consistent with the mechanical ""low"" signal. Gross financing needs under the stress scenario are
+small. Large net financial assets held by the sovereign wealth fund mitigate risks.",,,,,,,,,,,
+"Source: IMF staff estimates and projections.
+1/ See Annex IV of IMF, 2022, Staff Guidance Note on the Sovereign Risk and Debt Sustainability Framework for details on index calculation.
+2/ The comparison group is emerging markets, commodity exporter, surveillance.
+3/ The signal is low risk if the DFI is below 1.13; high risk if the DFI is above 2.08; and otherwise, it is moderate risk.
+4/ The signal is low risk if the GFI is below 7.6; high risk if the DFI is above 17.9; and otherwise, it is moderate risk.
+5/ The signal is low risk if the GFI is below 0.26; high risk if the DFI is above 0.40; and otherwise, it is moderate risk.",,,,,,,,,,,
